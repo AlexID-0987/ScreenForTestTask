@@ -1,0 +1,13 @@
+:root{
+    --to-top:#fffffc;
+    --to-center:#ffe6ed;
+    --to-bottom:#daebe8;
+    --burger-color-line:black;
+    --text-document:fantasy;
+    --buttons-violet-some-thing:#d48a9e;
+    --buttons-text-color:white;
+    --bg-body-color:linear-gradient(to bottom, var(--to-top),var(--to-center), var(--to-bottom));
+    --text-color-white-card-three:white;
+    --color-card-three:blueviolet;
+    
+}

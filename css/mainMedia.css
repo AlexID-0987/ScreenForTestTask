@@ -1,0 +1,30 @@
+@media (max-width:1200px){
+    main .magic_button{
+        margin-left: -600px;
+        margin-top: 20px;
+    }
+    main .price-contant{
+        display: block;
+    }
+    .button_draw:checked::before{
+        left: 100px;
+    }
+    main{
+        margin-left: 10px;
+    }
+}
+@media (max-width:900px){
+    main .magic_button{
+        margin-left: -600px;
+        margin-top: 20px;
+    }
+    main .price-contant{
+        display: block;
+    }
+    .button_draw:checked::before{
+        right: -500px;
+    }
+    main{
+        margin-left: 10px;
+    }
+}

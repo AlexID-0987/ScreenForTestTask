@@ -1,0 +1,137 @@
+h1{
+    font-family:var(--text-document)
+}
+main{
+    margin: 200px;
+}
+.button_draw{
+    width: 160px;
+    height: 40px;
+    -webkit-appearance: none;
+    outline: none;
+    background-color: var(--text-color-white-card-three);
+    border-radius: 20px;
+    
+    
+}
+.button_draw:checked{
+    background-color: var(--text-color-white-card-three)
+}
+.button_draw::before{
+    content: 'Monthly';
+    color: var(--text-color-white-card-three);
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--buttons-violet-some-thing);
+    
+}
+.main_text_button{
+   display: flex;
+   flex-wrap: wrap; 
+   gap: 2px;
+  
+}
+
+.magic_button{
+    width: 160px;
+    height: 40px;
+    margin-top: -20px;
+    
+    
+}
+.button_draw:checked::before{
+    right:380px;
+}
+.label-button{
+    width: 100px;
+    height: 100px;
+    margin-top: -16px;
+    margin-left: -65px;
+    font-size: 15px;
+}
+.main_contant{
+    background-color: var(--text-color-white-card-three);
+    border-radius: 40px;
+    padding: 10px;
+    
+}.price-contant{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card-one{
+    width: 300px;
+    height: 400px; 
+    
+}
+.card-two{
+    width: 300px;
+    height: 400px;
+}
+.card-three{
+    width: 300px;
+    height: 400px;
+    background-color: var(--color-card-three);
+    border-radius: 30px;
+    margin-top: -30px;
+}
+.logo-chek{
+    width: 10px;
+    height: 10px;
+    
+    
+}
+.logo-chek, .img-chek{
+    width: 30%;
+    
+}
+
+.card-text{
+    display: flex;
+    margin: 10px;
+}
+.logo-chek1{
+    width: 23%;
+}
+.choose-one{
+    margin-top: 90px;
+    text-align: center;
+}
+.choose-one button, .choose-two button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--color-card-three);
+    color:var(--text-color-white-card-three);
+    border:none;
+}
+.choose-two{
+    margin-top: 40px;
+    text-align: center;
+}
+.choose-three button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--buttons-violet-some-thing);
+    border: none;
+}
+.choose-three{
+    margin-top: 30px;
+    text-align: center;
+}
+#price-one, #price-two, #price-three{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#whiteText, #price-three{
+    color: var(--text-color-white-card-three)
+}
+.choose-three button{
+    color: var(--text-color-white-card-three)
+}

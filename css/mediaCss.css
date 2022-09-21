@@ -1,0 +1,20 @@
+@media (max-width: 1100px){
+    .button_header{
+        text-align: left;
+    }
+    .logo_header{
+        margin-left: 10px;
+    }
+    
+}
+@media (max-width: 900px){
+    .header_menu{
+        display: block;
+    }
+    .button_header{
+        text-align: left;
+    }
+   
+  
+    
+}

@@ -1,0 +1,56 @@
+body{
+    background: var(--bg-body-color);
+    width: 1360px;
+    height: 900px;
+}
+
+.line-one{
+    width: 40px;
+    height: 3px;
+    background-color:var(--burger-color-line);
+    margin: 7px;
+}
+.line-two{
+    width: 60px;
+    height: 3px;
+    background-color:var(--burger-color-line);
+    margin: 7px;
+}
+.line-three{
+    width: 40px;
+    height: 3px;
+    background-color:var(--burger-color-line);
+    margin: 7px;
+}
+.logo_header{
+    margin: auto;
+}
+
+.logo{
+    font-family: var(--text-document);
+    font-size: 30px;
+    grid-area: logo;
+}
+.button_header{
+    text-align: right;
+    margin-right: 30px;
+}
+.button_join_now{
+    background-color: var(--buttons-violet-some-thing);
+    width: 100px;
+    height: 40px;
+    border:none;
+    border-radius: 20px;
+    color: var(--buttons-text-color);
+    grid-area: but;
+}
+.burger_menu{
+    grid-area: burger;
+}
+.header_menu{
+    display:grid;
+    grid-template-areas: 
+    "burger logo but"
+    ;
+   
+}
